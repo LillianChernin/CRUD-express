@@ -1,0 +1,11 @@
+<% include ../partials/header %>
+<div class='bones'>
+  <% bones.forEach((bone) => { %>
+    <div class='bone'>
+      <h3 class='bone-name'><%= bone.name %></h3>
+      <p class='locationOrCommonName'>Location or Common Name: <%= bone.locationOrCommonName %></p>
+      <img class='image' src='<%= bone.image %>' alt='<%= bone.name %>'>
+    </div>
+<%  }) %>
+</div>
+<% include ../partials/footer %>
