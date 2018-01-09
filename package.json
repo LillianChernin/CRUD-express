@@ -1,0 +1,30 @@
+{
+  "name": "jan-8th-crud-express",
+  "version": "1.0.0",
+  "description": "CRUD Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LillianChernin/CRUD-express.git"
+  },
+  "keywords": [
+    "CRUD",
+    "Express.js"
+  ],
+  "author": "Lillian Chernin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LillianChernin/CRUD-express/issues"
+  },
+  "homepage": "https://github.com/LillianChernin/CRUD-express#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
+}
