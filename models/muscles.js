@@ -27,7 +27,8 @@ const muscles = [
     nerves: [
       'spinal accessory nerve (cranial nerve XI)',
       'midcervical nerves'
-    ]
+    ],
+    image: '/static/images/trapezius.jpeg'
   },
   {
     id: 2,
@@ -47,7 +48,8 @@ const muscles = [
     nerves: [
       'dorsal scapular nerve',
       'midcervical nerves'
-    ]
+    ],
+    image: '/static/images/levator scapulae.jpeg'
   },
   {
     id: 3,
@@ -67,7 +69,8 @@ const muscles = [
     ],
     nerves: [
       'dorsal scapular nerve'
-    ]
+    ],
+    image: '/static/images/rhomboid major.png'
   },
   {
     id: 4,
@@ -85,7 +88,8 @@ const muscles = [
     ],
     nerves: [
       'medial pectoral nerves (C8 and T1)'
-    ]
+    ],
+    image: '/static/images/pectoralis minor.png'
   },
   {
     id: 5,
@@ -106,7 +110,8 @@ const muscles = [
     ],
     nerves: [
       'thoracodorsal nerve'
-    ]
+    ],
+    image: '/static/images/latissimus dorsi.png'
   },
   {
     id: 6,
@@ -124,7 +129,8 @@ const muscles = [
     ],
     nerves: [
       'lower subscapular nerve'
-    ]
+    ],
+    image: '/static/images/teres minor.png'
   },
   {
     id: 7,
@@ -146,7 +152,8 @@ const muscles = [
     ],
     nerves: [
       'axillary nerve'
-    ]
+    ],
+    image: '/static/images/deltoid.png'
   },
   {
     id: 8,
@@ -167,7 +174,8 @@ const muscles = [
     ],
     nerves: [
       'medial and lateral pectoral nerves'
-    ]
+    ],
+    image: '/static/images/pectoralis major.png'
   },
   {
     id: 9,
@@ -187,6 +195,9 @@ const muscles = [
     ],
     nerves: [
       'musculocutaneous nerve'
-    ]
+    ],
+    image: '/static/images/biceps brachii.png'
   }
 ]
+
+module.exports = muscles;
