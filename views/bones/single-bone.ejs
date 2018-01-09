@@ -1,7 +1,12 @@
 <% include ../partials/header %>
+<ul>
+  <li><a href="../../">Home</a></li>
+  <li><a href="../bones">Bones</a></li>
+  <li><a href="../muscles">Muscles</a></li>
+</ul>
 <div class='bone'>
   <h3 class='bone-name'><%= bone.name %></h3>
-  <p class='locationOrCommonName'><%= bone.locationOrCommonName %></p>
   <img class='image' src='<%= bone.image %>' alt='<%= bone.name %>'>
+  <p class='locationOrCommonName'><%= bone.locationOrCommonName %></p>
 </div>
 <% include ../partials/footer %>

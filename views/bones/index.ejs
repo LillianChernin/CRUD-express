@@ -1,10 +1,20 @@
 <% include ../partials/header %>
+<ul>
+  <li><a href="../">Home</a></li>
+  <li><a href="/muscles">Muscles</a></li>
+</ul>
+<form action="/bones" method="POST">
+  <input type="text" placeholder="Bone name" name="name">
+  <input type="text" placeholder="Location or common name" name="locationOrCommonName">
+  <button type="submit">Add</button>
+</form>
+
 <div class='bones'>
   <% bones.forEach((bone) => { %>
     <div class='bone'>
       <h3 class='bone-name'><%= bone.name %></h3>
-      <p class='locationOrCommonName'>Location or Common Name: <%= bone.locationOrCommonName %></p>
       <img class='image' src='<%= bone.image %>' alt='<%= bone.name %>'>
+      <p class='locationOrCommonName'>Location or Common Name: <%= bone.locationOrCommonName %></p>
     </div>
 <%  }) %>
 </div>
